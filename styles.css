@@ -1,0 +1,102 @@
+/*  card-view background rgb(255, 255, 255) 
+    main body background rgb(238, 238, 238)
+    card view background-color: rgba(209, 204, 219, 0.829);
+    header font color color: rgba(222,165,236,255);
+    button background color rgba(255, 249, 196, 0.582);
+*/
+
+@font-face {
+  font-family: "nunitoextralight";
+  src: url("nunito-variablefont_wght-webfont.woff2") format("woff2"),
+    url("nunito-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sarabunregular";
+  src: url("sarabun-regular-webfont.woff2") format("woff2"),
+    url("sarabun-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3vh;
+}
+h1,
+h3 {
+  color: rgba(222, 165, 236, 255);
+}
+h1,
+weather-info {
+  font-family: sarabunregular;
+}
+
+h3,
+p {
+  font-family: nunitoextralight;
+}
+body {
+  background-color: rgb(238, 238, 238);
+  margin: 0;
+}
+
+#main-img {
+  margin-top: 20px;
+}
+#weather-info {
+  text-align: center;
+}
+.flex-and-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1,
+p,
+h3 {
+  text-align: center;
+}
+.card-view {
+  max-width: 500px;
+  height: auto;
+  /* background-color: rgb(255, 255, 255); */
+  background-color: rgba(209, 204, 219, 0.829);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.288);
+  margin: 50px 0 50px 0;
+  min-width: 200px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  border-right: solid black 2px;
+  width: 100vh;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  font-size: 5vw;
+  background-color: rgba(255, 249, 196, 0.582);
+}
+picture {
+  text-align: center;
+}
+iframe {
+  width: 380px;
+  height: 214px;
+  margin-bottom: 30px;
+}
+main-video {
+  display: flex;
+  justify-content: center;
+}
+#main-img {
+  min-width: 480px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 5px 0 5px;
+}
